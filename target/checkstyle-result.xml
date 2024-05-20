@@ -1,3 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="9.3">
+<<<<<<< HEAD
+=======
+<file name="/home/mcola/Documents/MTSS/roman-number/src/main/java/it/unipd/mtss/IntegerToRoman.java">
+</file>
+<file name="/home/mcola/Documents/MTSS/roman-number/src/main/java/it/unipd/mtss/RomanPrinter.java">
+</file>
+>>>>>>> adf18a8 (risolti conflitti)
 </checkstyle>
