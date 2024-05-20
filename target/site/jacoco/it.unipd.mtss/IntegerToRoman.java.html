@@ -8,29 +8,35 @@ package it.unipd.mtss;
 //Conversione numeri interi in numeri romani
 <span class="nc" id="L9">public class IntegerToRoman {</span>
 
-<span class="nc" id="L11">    private static String[] ones =</span>
+<span class="fc" id="L11">    private static String[] ones =</span>
             {&quot;&quot;, &quot;I&quot;, &quot;II&quot;, &quot;III&quot;, &quot;IV&quot;, &quot;V&quot;, &quot;VI&quot;, &quot;VII&quot;, &quot;VIII&quot;, &quot;IX&quot;};
-<span class="nc" id="L13">    private static String[] tens =</span>
+<span class="fc" id="L13">    private static String[] tens =</span>
             {&quot;&quot;, &quot;X&quot;, &quot;XX&quot;, &quot;XXX&quot;, &quot;XL&quot;, &quot;L&quot;, &quot;LX&quot;, &quot;LXX&quot;, &quot;LXXX&quot;, &quot;XC&quot;};
-<span class="nc" id="L15">    private static String[] hundreds =</span>
+<span class="fc" id="L15">    private static String[] hundreds =</span>
             {&quot;&quot;, &quot;C&quot;, &quot;CC&quot;, &quot;CCC&quot;, &quot;CD&quot;, &quot;D&quot;, &quot;DC&quot;, &quot;DCC&quot;, &quot;DCCC&quot;, &quot;CM&quot;};
-<span class="nc" id="L17">    private static String[] thousands =</span>
+<span class="fc" id="L17">    private static String[] thousands =</span>
             {&quot;&quot;, &quot;M&quot;};
 
     public static String convert(int number) {
 
+<<<<<<< HEAD
 <span class="nc bnc" id="L22" title="All 4 branches missed.">        if (number &lt; 1 || number &gt; 500) {</span>
 <span class="nc" id="L23">            throw new IllegalArgumentException(</span>
                     &quot;Il numero deve essere compreso tra 1 e 500.&quot;
+=======
+<span class="fc bfc" id="L22" title="All 4 branches covered.">        if (number &lt; 1 || number &gt; 1000) {</span>
+<span class="fc" id="L23">            throw new IllegalArgumentException(</span>
+                    &quot;Il numero deve essere compreso tra 1 e 1000.&quot;
+>>>>>>> 8790b52 (Risolti conflitti)
             );
         }
 
-<span class="nc" id="L28">        String thousandsDigits = thousands[number / 1000];</span>
-<span class="nc" id="L29">        String hundredsDigits = hundreds[(number % 1000) / 100];</span>
-<span class="nc" id="L30">        String tensDigits = tens[(number % 100) / 10];</span>
-<span class="nc" id="L31">        String onesDigits = ones[number % 10];</span>
+<span class="fc" id="L28">        String thousandsDigits = thousands[number / 1000];</span>
+<span class="fc" id="L29">        String hundredsDigits = hundreds[(number % 1000) / 100];</span>
+<span class="fc" id="L30">        String tensDigits = tens[(number % 100) / 10];</span>
+<span class="fc" id="L31">        String onesDigits = ones[number % 10];</span>
 
-<span class="nc" id="L33">        return thousandsDigits+hundredsDigits+tensDigits+onesDigits;</span>
+<span class="fc" id="L33">        return thousandsDigits+hundredsDigits+tensDigits+onesDigits;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>

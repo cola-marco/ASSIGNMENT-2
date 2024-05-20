@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Mon May 20 13:20:42 UTC 2024
 =\=\=\=\=\=\=
 configuration*?=3175747C9EF9CB54256E31967C514C60D18062EA
@@ -9,3 +10,10 @@ module-resource*?\:file\:/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/header.txt=
 >>>>>>>=origin/develop
 <<<<<<<=HEAD
 module-resource*?\:file\:/Users/dadi/UNI/MTSS/ASSIGNMENT-2/header.txt=5EA2EDEA31F27576CDF97B779D94B0602ED5EDEB
+=======
+#Mon May 20 15:26:33 CEST 2024
+configuration*?=F55E1091B99ED80970C686FB020EA44E5823D19B
+module-resource*?\:file\:/home/mcola/Documents/MTSS/roman-number/header.txt=5EA2EDEA31F27576CDF97B779D94B0602ED5EDEB
+/home/mcola/Documents/MTSS/roman-number/src/main/java/it/unipd/mtss/IntegerToRoman.java=1716211339837
+/home/mcola/Documents/MTSS/roman-number/src/main/java/it/unipd/mtss/RomanPrinter.java=1716211401874
+>>>>>>> 8790b52 (Risolti conflitti)
