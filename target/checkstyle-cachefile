@@ -1,13 +1,5 @@
-<<<<<<< HEAD
-#Mon May 20 11:57:27 UTC 2024
+#Mon May 20 12:27:41 UTC 2024
 configuration*?=3175747C9EF9CB54256E31967C514C60D18062EA
 module-resource*?\:file\:/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/header.txt=5EA2EDEA31F27576CDF97B779D94B0602ED5EDEB
-/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/src/main/java/it/unipd/mtss/RomanPrinter.java=1716206232608
-/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/src/main/java/it/unipd/mtss/IntegerToRoman.java=1716206232608
-=======
-#Mon May 20 14:21:03 CEST 2024
-configuration*?=F55E1091B99ED80970C686FB020EA44E5823D19B
-module-resource*?\:file\:/home/mcola/Documents/MTSS/roman-number/header.txt=5EA2EDEA31F27576CDF97B779D94B0602ED5EDEB
-/home/mcola/Documents/MTSS/roman-number/src/main/java/it/unipd/mtss/IntegerToRoman.java=1716202352148
-/home/mcola/Documents/MTSS/roman-number/src/main/java/it/unipd/mtss/RomanPrinter.java=1716202352148
->>>>>>> 71017c4 (modifiche yml)
+/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/src/main/java/it/unipd/mtss/RomanPrinter.java=1716208045837
+/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/src/main/java/it/unipd/mtss/IntegerToRoman.java=1716208045837
