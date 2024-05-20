@@ -33,11 +33,13 @@ public class IntegerToRomanTest {
         assertEquals(IntegerToRoman.convert(3), "III");
     }
 
+    //primi 6 numeri
     @Test
     public void First6NumbersConversion() {
         assertEquals(IntegerToRoman.convert(6), "VI");
     }
 
+    //primi 10 numeri
     @Test
     public void First10NumbersConversion() {
         assertEquals(IntegerToRoman.convert(10), "X");
