@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.102" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="it.unipd.mtss.IntegerToRomanTest" time="0.091" tests="11" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -14,7 +14,7 @@
     <property name="os.name" value="Linux"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/opt/hostedtoolcache/Java_Temurin-Hotspot_jdk/11.0.22-7/x64/lib"/>
-    <property name="sun.java.command" value="/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/surefire/surefirebooter15790688482476406979.jar /home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/surefire 2024-05-20T13-41-04_303-jvmRun1 surefire6569817248158152382tmp surefire_011555982783954772759tmp"/>
+    <property name="sun.java.command" value="/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/surefire/surefirebooter5286820375330292254.jar /home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/surefire 2024-05-20T13-48-33_627-jvmRun1 surefire4465217425368271949tmp surefire_03796564485807576848tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/test-classes:/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/classes:/home/runner/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/runner/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/surefire/surefirebooter15790688482476406979.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/work/ASSIGNMENT-2/ASSIGNMENT-2/target/surefire/surefirebooter5286820375330292254.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.22+7"/>
     <property name="user.name" value="runner"/>
@@ -57,14 +57,14 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="First6NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0.037"/>
-  <testcase name="First20NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="First6NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0.039"/>
+  <testcase name="First20NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0.002"/>
   <testcase name="under_0_ThrowsIllegalArgumentException" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="First500NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="First10NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
+  <testcase name="First10NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
   <testcase name="First50NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="convert_0_IllegalArgumentException" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
-  <testcase name="First100NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="convert_0_IllegalArgumentException" classname="it.unipd.mtss.IntegerToRomanTest" time="0.001"/>
+  <testcase name="First100NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="First3NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="First1000NumbersConversion" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
   <testcase name="overRangeThrowsIllegalArgumentException" classname="it.unipd.mtss.IntegerToRomanTest" time="0"/>
