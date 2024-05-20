@@ -1,5 +1,3 @@
-#IdeaIJ
-target/
-#java
+/target/
 .idea/
 
