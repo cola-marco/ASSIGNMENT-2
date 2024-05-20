@@ -34,6 +34,7 @@ public class RomanPrinterTest {
 
     }
 
+
     @Test
     public void TestX(){
         String ten = RomanPrinter.print(10);
@@ -65,5 +66,16 @@ public class RomanPrinterTest {
                 "| |      \n"+
                 "| |____  \n"+
                 "|______| \n", fifty);
+    }
+
+    @Test
+    public void TestC(){
+        String hundred = RomanPrinter.print(100);
+        assertEquals("  _____  \n"+
+                " / ____| \n"+
+                "| |      \n"+
+                "| |      \n"+
+                "| |____  \n"+
+                " \\_____| \n", hundred);
     }
 }
