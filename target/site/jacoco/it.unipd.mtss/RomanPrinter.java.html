@@ -37,35 +37,45 @@ import java.util.Map;
             &quot;/_/ \\_\\ &quot;
     };
 
-<span class="nc" id="L40">    private static final Map&lt;Character, String[]&gt; romanToAscii =</span>
+<span class="nc" id="L40">    private static final String FIFTY_ASCII[] ={</span>
+            &quot; _       &quot;,
+            &quot;| |      &quot;,
+            &quot;| |      &quot;,
+            &quot;| |      &quot;,
+            &quot;| |____  &quot;,
+            &quot;|______| &quot;
+    };
+
+<span class="nc" id="L49">    private static final Map&lt;Character, String[]&gt; romanToAscii =</span>
             new HashMap&lt;&gt;();
 
     static {
-<span class="nc" id="L44">        romanToAscii.put('I', ONE_ASCII);</span>
-<span class="nc" id="L45">        romanToAscii.put('V', FIVE_ASCII);</span>
-<span class="nc" id="L46">        romanToAscii.put('X', TEN_ASCII);</span>
-<span class="nc" id="L47">    }</span>
+<span class="nc" id="L53">        romanToAscii.put('I', ONE_ASCII);</span>
+<span class="nc" id="L54">        romanToAscii.put('V', FIVE_ASCII);</span>
+<span class="nc" id="L55">        romanToAscii.put('X', TEN_ASCII);</span>
+<span class="nc" id="L56">        romanToAscii.put('L', FIFTY_ASCII);</span>
+<span class="nc" id="L57">    }</span>
 
     public static String print(int num){
-<span class="nc" id="L50">        return printAsciiArt(IntegerToRoman.convert(num));</span>
+<span class="nc" id="L60">        return printAsciiArt(IntegerToRoman.convert(num));</span>
     }
 
     private static String printAsciiArt(String romanNumber) {
-<span class="nc" id="L54">        String result = &quot;&quot;;</span>
-<span class="nc" id="L55">        String[] lines = new String[]{&quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;};</span>
+<span class="nc" id="L64">        String result = &quot;&quot;;</span>
+<span class="nc" id="L65">        String[] lines = new String[]{&quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;};</span>
 
-<span class="nc bnc" id="L57" title="All 2 branches missed.">        for (char ch : romanNumber.toCharArray()) {</span>
-<span class="nc" id="L58">            String[] art = romanToAscii.get(ch);</span>
-<span class="nc bnc" id="L59" title="All 2 branches missed.">            for (int i = 0; i &lt; lines.length; i++) {</span>
-<span class="nc" id="L60">                lines[i] += art[i] ;</span>
+<span class="nc bnc" id="L67" title="All 2 branches missed.">        for (char ch : romanNumber.toCharArray()) {</span>
+<span class="nc" id="L68">            String[] art = romanToAscii.get(ch);</span>
+<span class="nc bnc" id="L69" title="All 2 branches missed.">            for (int i = 0; i &lt; lines.length; i++) {</span>
+<span class="nc" id="L70">                lines[i] += art[i] ;</span>
             }
         }
 
-<span class="nc bnc" id="L64" title="All 2 branches missed.">        for (String line : lines) {</span>
-<span class="nc" id="L65">            result += line + &quot;\n&quot;;</span>
+<span class="nc bnc" id="L74" title="All 2 branches missed.">        for (String line : lines) {</span>
+<span class="nc" id="L75">            result += line + &quot;\n&quot;;</span>
         }
 
-<span class="nc" id="L68">        return result;</span>
+<span class="nc" id="L78">        return result;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
