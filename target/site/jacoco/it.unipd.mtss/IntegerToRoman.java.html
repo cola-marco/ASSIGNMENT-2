@@ -6,34 +6,6 @@
 package it.unipd.mtss;
 
 //Conversione numeri interi in numeri romani
-<<<<<<< HEAD
-public class IntegerToRoman {
-<span class="nc" id="L10"></span>
-    private static String[] ones =
-<span class="nc" id="L12">            {&quot;&quot;, &quot;I&quot;, &quot;II&quot;, &quot;III&quot;, &quot;IV&quot;, &quot;V&quot;, &quot;VI&quot;, &quot;VII&quot;, &quot;VIII&quot;, &quot;IX&quot;};</span>
-    private static String[] tens =
-<span class="nc" id="L14">            {&quot;&quot;, &quot;X&quot;, &quot;XX&quot;, &quot;XXX&quot;, &quot;XL&quot;, &quot;L&quot;, &quot;LX&quot;, &quot;LXX&quot;, &quot;LXXX&quot;, &quot;XC&quot;};</span>
-    private static String[] hundreds =
-<span class="nc" id="L16">            {&quot;&quot;, &quot;C&quot;, &quot;CC&quot;, &quot;CCC&quot;, &quot;CD&quot;, &quot;D&quot;, &quot;DC&quot;, &quot;DCC&quot;, &quot;DCCC&quot;, &quot;CM&quot;};</span>
-    private static String[] thousands =
-<span class="nc" id="L18">            {&quot;&quot;, &quot;M&quot;};</span>
-
-    public static String convert(int number) {
-
-        if (number &lt; 1 || number &gt; 20) {
-<span class="nc bnc" id="L23" title="All 4 branches missed.">            throw new IllegalArgumentException(</span>
-<span class="nc" id="L24">                    &quot;Il numero deve essere compreso tra 1 e 20.&quot;</span>
-            );
-        }
-
-        String thousandsDigits = thousands[number / 1000];
-<span class="nc" id="L29">        String hundredsDigits = hundreds[(number % 1000) / 100];</span>
-<span class="nc" id="L30">        String tensDigits = tens[(number % 100) / 10];</span>
-<span class="nc" id="L31">        String onesDigits = ones[number % 10];</span>
-<span class="nc" id="L32"></span>
-        return thousandsDigits+hundredsDigits+tensDigits+onesDigits;
-<span class="nc" id="L34">    }</span>
-=======
 <span class="nc" id="L9">public class IntegerToRoman {</span>
 
 <span class="nc" id="L11">    private static String[] ones =</span>
@@ -47,9 +19,9 @@ public class IntegerToRoman {
 
     public static String convert(int number) {
 
-<span class="nc bnc" id="L22" title="All 4 branches missed.">        if (number &lt; 1 || number &gt; 10) {</span>
+<span class="nc bnc" id="L22" title="All 4 branches missed.">        if (number &lt; 1 || number &gt; 20) {</span>
 <span class="nc" id="L23">            throw new IllegalArgumentException(</span>
-                    &quot;Il numero deve essere compreso tra 1 e 10.&quot;
+                    &quot;Il numero deve essere compreso tra 1 e 20.&quot;
             );
         }
 
@@ -60,6 +32,5 @@ public class IntegerToRoman {
 
 <span class="nc" id="L33">        return thousandsDigits+hundredsDigits+tensDigits+onesDigits;</span>
     }
->>>>>>> adf18a8 (risolti conflitti)
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
