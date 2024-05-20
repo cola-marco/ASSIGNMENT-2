@@ -55,4 +55,15 @@ public class RomanPrinterTest {
                 " / . \\   / . \\  \n"+
                 "/_/ \\_\\ /_/ \\_\\ \n", twenty);
     }
+
+    @Test
+    public void TestL(){
+        String fifty = RomanPrinter.print(50);
+        assertEquals(" _       \n"+
+                "| |      \n"+
+                "| |      \n"+
+                "| |      \n"+
+                "| |____  \n"+
+                "|______| \n", fifty);
+    }
 }
