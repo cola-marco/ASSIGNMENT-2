@@ -4,7 +4,6 @@
 ////////////////////////////////////////////////////////////////////
 
 package it.unipd.mtss;
-import java.util.TreeMap;
 
 //Conversione numeri interi in numeri romani
 public class IntegerToRoman {
@@ -31,6 +30,6 @@ public class IntegerToRoman {
         String tensDigits = tens[(number % 100) / 10];
         String onesDigits = ones[number % 10];
 
-        return thousandsDigits + hundredsDigits + tensDigits + onesDigits;
+        return thousandsDigits+hundredsDigits+tensDigits+onesDigits;
     }
 }
