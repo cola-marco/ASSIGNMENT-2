@@ -19,9 +19,9 @@ public class IntegerToRoman {
 
     public static String convert(int number) {
 
-        if (number < 1 || number > 100) {
+        if (number < 1 || number > 500) {
             throw new IllegalArgumentException(
-                    "Il numero deve essere compreso tra 1 e 100."
+                    "Il numero deve essere compreso tra 1 e 500."
             );
         }
 
