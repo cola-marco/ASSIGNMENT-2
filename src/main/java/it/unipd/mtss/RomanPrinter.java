@@ -20,11 +20,21 @@ public class RomanPrinter {
             "|_____|"
     };
 
+    private static final String FIVE_ASCII[] ={
+            "__      __",
+            "\\ \\    / /",
+            " \\ \\  / / ",
+            "  \\ \\/ /  ",
+            "   \\  /   ",
+            "    \\/    "
+    };
+
     private static final Map<Character, String[]> romanToAscii =
             new HashMap<>();
 
     static {
         romanToAscii.put('I', ONE_ASCII);
+        romanToAscii.put('V', FIVE_ASCII);
     }
 
     public static String print(int num){

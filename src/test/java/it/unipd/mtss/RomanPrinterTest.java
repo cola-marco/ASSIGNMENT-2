@@ -20,4 +20,17 @@ public class RomanPrinterTest {
                 " _| |_ \n"+
                 "|_____|\n" , one);
     }
+
+    //test ASCII V
+    @Test
+    public void TestV(){
+        String five = RomanPrinter.print(5);
+        assertEquals("__      __\n"+
+                "\\ \\    / /\n"+
+                " \\ \\  / / \n"+
+                "  \\ \\/ /  \n"+
+                "   \\  /   \n"+
+                "    \\/    \n", five);
+
+    }
 }
