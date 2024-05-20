@@ -29,12 +29,22 @@ public class RomanPrinter {
             "    \\/    "
     };
 
+    private static final String TEN_ASCII[] ={
+            "__   __ ",
+            "\\ \\ / / ",
+            " \\ V /  ",
+            "  > <   ",
+            " / . \\  ",
+            "/_/ \\_\\ "
+    };
+
     private static final Map<Character, String[]> romanToAscii =
             new HashMap<>();
 
     static {
         romanToAscii.put('I', ONE_ASCII);
         romanToAscii.put('V', FIVE_ASCII);
+        romanToAscii.put('X', TEN_ASCII);
     }
 
     public static String print(int num){

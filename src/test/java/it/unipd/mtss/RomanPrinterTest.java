@@ -33,4 +33,15 @@ public class RomanPrinterTest {
                 "    \\/    \n", five);
 
     }
+
+    @Test
+    public void TestX(){
+        String ten = RomanPrinter.print(10);
+        assertEquals("__   __ \n"+
+                "\\ \\ / / \n"+
+                " \\ V /  \n"+
+                "  > <   \n"+
+                " / . \\  \n"+
+                "/_/ \\_\\ \n", ten);
+    }
 }

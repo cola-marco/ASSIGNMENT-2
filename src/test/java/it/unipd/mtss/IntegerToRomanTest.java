@@ -12,7 +12,7 @@ public class IntegerToRomanTest {
     //test dei numeri fuori dal range, zero, sotto 1 oppure oltre 3
     @Test(expected = IllegalArgumentException.class)
     public void overRangeThrowsIllegalArgumentException() {
-        IntegerToRoman.convert(7);
+        IntegerToRoman.convert(11);
     }
 
     @Test(expected = IllegalArgumentException.class)
@@ -36,5 +36,10 @@ public class IntegerToRomanTest {
     @Test
     public void First6NumbersConversion() {
         assertEquals(IntegerToRoman.convert(6), "VI");
+    }
+
+    @Test
+    public void First10NumbersConversion() {
+        assertEquals(IntegerToRoman.convert(10), "X");
     }
 }
